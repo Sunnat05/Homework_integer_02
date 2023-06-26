@@ -1,8 +1,10 @@
 A=int(input())
 B=int(input())
 C=int(input())
+a=A//C
+b=B//C
+n=a*b
 S1=A*B
-S2=C**2
-a=S1//S2
-b=S1%S2
-print(a,b)
+S2=C**2*n
+S3=S1-S2
+print(n,S3)
