@@ -1,3 +1,3 @@
 a=int(input())
-b=a//100%10
+b=a//1000%10
 print(b)
