@@ -1,3 +1,3 @@
 Y=int(input())
-C=Y//100+1
+C=(Y-1)//100+1
 print(C)
